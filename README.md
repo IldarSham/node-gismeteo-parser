@@ -19,14 +19,21 @@ gismeteo.getWeather('weather-ufa-4588').then(r => {
 
 Property | Description
 --- | --- 
-temp | temperature in °C
-feels_like | perceived temperature
+temp | Temperature (°C)
+feels_like | Perceived temperature (°C)
+sunrise | Sunrise time
+sunset | Sunset time
+condition | Weather condition
+wind.speed | Wind speed (m/s)
+wind.direction | Wind direction
+pressure | Pressure (mm Hg) 
+humidity | Humidity
+gm_activity | Geomagnetic activity
+temp_water | Water temperature (°C)
 
-### Text length limit 
-City search
-
+### City search
 ```js
-gismeteo.searchCity('Уфа').then(r => {
+gismeteo.searchCity('Ufa').then(r => {
   // returns an object with information about the city
 });
 ```
