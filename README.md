@@ -19,7 +19,8 @@ gismeteo.getWeather('weather-ufa-4588').then(r => {
 
 Property | Description
 --- | --- 
-Test | Test
+temp | temperature in °C
+feels_like | perceived temperature
 
 ### Text length limit 
 City search
