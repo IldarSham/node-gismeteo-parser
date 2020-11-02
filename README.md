@@ -19,17 +19,17 @@ gismeteo.getWeather('weather-ufa-4588').then(r => {
 
 Property | Description
 --- | --- 
-*temp* | Temperature (°C)
-*feels_like* | Perceived temperature (°C)
-*sunrise* | Sunrise time
-*sunset* | Sunset time
-*condition* | Weather condition
-*wind.speed* | Wind speed (m/s)
-*wind.direction* | Wind direction
-*pressure* | Pressure (mm Hg) 
-*humidity* | Humidity
-*gm_activity* | Geomagnetic activity (points)
-*temp_water* | Water temperature (°C)
+temp | Temperature (°C)
+feels_like | Perceived temperature (°C)
+sunrise | Sunrise time
+sunset | Sunset time
+condition | Weather condition
+wind.speed | Wind speed (m/s)
+wind.direction | Wind direction
+pressure | Pressure (mm Hg) 
+humidity | Humidity
+gm_activity | Geomagnetic activity (points)
+temp_water | Water temperature (°C)
 
 ### City search
 ```js
