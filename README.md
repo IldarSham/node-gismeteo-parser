@@ -19,7 +19,7 @@ gismeteo.getWeather('weather-ufa-4588').then(r => {
 
 Property | Description
 --- | --- 
-temp | Temperature (°C)
+#### temp | Temperature (°C)
 feels_like | Perceived temperature (°C)
 sunrise | Sunrise time
 sunset | Sunset time
@@ -35,5 +35,9 @@ temp_water | Water temperature (°C)
 ```js
 gismeteo.searchCity('Ufa').then(r => {
   // returns an object with information about the city
+  let url = r.items[0].url; 
+  gismeteo.getWeather(url).then(r => {
+    // returns an object with information about the weather
+  });
 });
 ```
