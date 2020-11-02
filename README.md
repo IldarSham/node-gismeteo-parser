@@ -12,7 +12,7 @@ npm i node-gismeteo-parser
 const GismeteoParser = require('node-gismeteo-parser');
 const gismeteo = new GismeteoParser();
 
-gismeteo.getWeather('/weather-ufa-4588/').then(r => {
+gismeteo.getWeather('/weather-ufa-4588').then(r => {
   // returns an object with information about the weather
 });
 ```
