@@ -19,7 +19,7 @@ gismeteo.getWeather('weather-ufa-4588').then(r => {
 
 Property | Description
 --- | --- 
-temp | Temperature (°C)a
+temp | Temperature (°C)
 feels_like | Perceived temperature (°C)
 sunrise | Sunrise time
 sunset | Sunset time
