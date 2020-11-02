@@ -15,11 +15,11 @@ const gismeteo = new GismeteoParser();
 gismeteo.getWeather('weather-ufa-4588').then(r => {
   // returns an object with information about the weather
 });
+```
 
 Property | Description
 --- | --- 
 Test | Test
-```
 
 ### Text length limit 
 City search
