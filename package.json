@@ -1,0 +1,30 @@
+{
+  "name": "node-gismeteo-parser",
+  "version": "1.0.0",
+  "description": "Simple node.js library for gismeteo weather",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IldarSham/node-gismeteo-parser.git"
+  },
+  "keywords": [
+    "gismeteo",
+    "weather",
+    "parser"
+  ],
+  "files": [
+    "lib/*"
+  ],
+  "author": "IldarSham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IldarSham/node-gismeteo-parser/issues"
+  },
+  "homepage": "https://github.com/IldarSham/node-gismeteo-parser#readme",
+  "dependencies": {
+    "needle": "^2.5.2"
+  }
+}
